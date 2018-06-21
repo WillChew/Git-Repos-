@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RepoNameCellTableViewCell.h
 //  GitHub Repos
 //
 //  Created by Will Chew on 2018-06-21.
@@ -7,14 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Repo.h"
 
-@interface ViewController : UIViewController
+@interface RepoNameCellTableViewCell : UITableViewCell
 
-@property (nonatomic,strong) Repo *repo;
-
-
-
+@property (weak, nonatomic) IBOutlet UILabel *repoNamesLabel;
 
 @end
-

@@ -13,6 +13,8 @@
 		21F27E8D20DC09D700C1A0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F27E8C20DC09D700C1A0B6 /* Assets.xcassets */; };
 		21F27E9020DC09D700C1A0B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F27E8E20DC09D700C1A0B6 /* LaunchScreen.storyboard */; };
 		21F27E9320DC09D700C1A0B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27E9220DC09D700C1A0B6 /* main.m */; };
+		21F27E9B20DC0E0300C1A0B6 /* RepoNameCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27E9A20DC0E0300C1A0B6 /* RepoNameCellTableViewCell.m */; };
+		21F27E9E20DC13D400C1A0B6 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F27E9D20DC13D400C1A0B6 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		21F27E8F20DC09D700C1A0B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F27E9120DC09D700C1A0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21F27E9220DC09D700C1A0B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F27E9920DC0E0300C1A0B6 /* RepoNameCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepoNameCellTableViewCell.h; sourceTree = "<group>"; };
+		21F27E9A20DC0E0300C1A0B6 /* RepoNameCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepoNameCellTableViewCell.m; sourceTree = "<group>"; };
+		21F27E9C20DC13D400C1A0B6 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		21F27E9D20DC13D400C1A0B6 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				21F27E8620DC09D500C1A0B6 /* ViewController.h */,
 				21F27E8720DC09D500C1A0B6 /* ViewController.m */,
 				21F27E8920DC09D500C1A0B6 /* Main.storyboard */,
+				21F27E9C20DC13D400C1A0B6 /* Repo.h */,
+				21F27E9D20DC13D400C1A0B6 /* Repo.m */,
+				21F27E9920DC0E0300C1A0B6 /* RepoNameCellTableViewCell.h */,
+				21F27E9A20DC0E0300C1A0B6 /* RepoNameCellTableViewCell.m */,
 				21F27E8C20DC09D700C1A0B6 /* Assets.xcassets */,
 				21F27E8E20DC09D700C1A0B6 /* LaunchScreen.storyboard */,
 				21F27E9120DC09D700C1A0B6 /* Info.plist */,
@@ -141,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F27E9E20DC13D400C1A0B6 /* Repo.m in Sources */,
+				21F27E9B20DC0E0300C1A0B6 /* RepoNameCellTableViewCell.m in Sources */,
 				21F27E8820DC09D500C1A0B6 /* ViewController.m in Sources */,
 				21F27E9320DC09D700C1A0B6 /* main.m in Sources */,
 				21F27E8520DC09D500C1A0B6 /* AppDelegate.m in Sources */,
